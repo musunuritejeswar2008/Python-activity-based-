@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Festiva 2026 College Fest</title>
+    <link rel="stylesheet" href="kushu.css">
+</head>
+<body>
+
+<header>   
+    <nav class="navbar">
+        <h2>🎉 Festiva 2026</h2> 
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>    
+            <a href="#schedule">Schedule</a>
+            <a href="#rules">Rules</a>
+            <a href="#register">Register</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="tag">COLLEGE FESTIVAL 2026</p>
+        <h1>Dream Big.<br>Celebrate Bigger!</h1>
+        <p>One campus. Endless talent. Unforgettable memories.</p>
+        <p>📅 November 20,21, 2026</p>
+        <a class="btn" href="#events">Explore Events</a>
+    </div>
+</section>
+
+<section class="section" id="events">
+    <h2>Explore Our Events</h2>
+    <p class="subtitle">Discover your talent and join the excitement!</p>
+
+    <div class="filters">
+        <button onclick="('all')">All Events</button>
+        <button onclick="('technical')">Technical</button>
+        <button onclick="('cultural')">Cultural</button>
+        <button onclick="`.
+        ('workshop')">Workshops</button>
+    </div>
+
+    <div class="event-grid">
+
+        <div class="event-card" data-category="technical">
+            <div class="event-icon">💻</div>
+            <h3>Code Challenge</h3>
+            <p>Solve coding problems and show your programming skills.</p>
+            <p><b>Coordinator:</b> Rahul Kumar</p>
+            <p><b>Time:</b> 10:00 AM</p>
+            <a href="#register" class="card-btn">Register</a>
+        </div>
+
+        <div class="event-card" data-category="technical">
+            <div class="event-icon">🤖</div>
+            <h3>AI Innovation</h3>
+            <p>Present creative ideas using AI and emerging technology.</p>
+            <p><b>Coordinator:</b> Priya Sharma</p>
+            <p><b>Time:</b> 11:30 AM</p>
+            <a href="#register" class="card-btn">Register</a>
+        </div>
+
+        <div class="event-card" data-category="cultural">
+            <div class="event-icon">💃</div>
+            <h3>Dance Battle</h3>
+            <p>Show your moves in a fun dance competition.</p>
+            <p><b>Coordinator:</b> Sneha Reddy</p>
+            <p><b>Time:</b> 1:00 PM</p>
+            <a href="#register" class="card-btn">Register</a>
+        </div>
+
+        <div class="event-card" data-category="cultural">
+            <div class="event-icon">🎤</div>
+            <h3>Singing Stars</h3>
+            <p>Celebrate music with solo and group performances.</p>
+            <p><b>Coordinator:</b> Arjun Rao</p>
+            <p><b>Time:</b> 2:00 PM</p>
+            <a href="#register" class="card-btn">Register</a>
+        </div>
+
+        <div class="event-card" data-category="workshop">
+            <div class="event-icon">🌐</div>
+            <h3>Web Development</h3>
+            <p>Learn to create websites using HTML, CSS and JavaScript.</p>
+            <p><b>Coordinator:</b> Web Team</p>
+            <p><b>Time:</b> 10:30 AM</p>
+            <a href="#register" class="card-btn">Register</a>
+        </div>
+
+        <div class="event-card" data-category="workshop">
+            <div class="event-icon">🧠</div>
+            <h3>AI Workshop</h3>
+            <p>Explore AI tools, applications and beginner projects.</p>
+            <p><b>Coordinator:</b> CSM Team</p>
+            <p><b>Time:</b> 12:00 PM</p>
+            <a href="#register" class="card-btn">Register</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section schedule" id="schedule">
+    <h2>Event Schedule</h2>
+    <p class="subtitle">Plan your festival experience.</p>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Opening Ceremony</td>
+            <td>Main Auditorium</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Code Challenge</td>
+            <td>Computer Lab</td>
+        </tr>
+        <tr>
+            <td>11:30 AM</td>
+            <td>AI Innovation</td>
+            <td>Seminar Hall</td>
+        </tr>
+        <tr>
+            <td>1:00 PM</td>
+            <td>Dance Battle</td>
+            <td>Main Stage</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>Singing Stars</td>
+            <td>Main Stage</td>
+        </tr>
+    </table>
+    <p class="note">Note: These are sample events and timings for your project.</p>
+</section>
+
+<section class="section" id="rules">
+    <h2>Festival Rules</h2>
+    <div class="rules-box">
+        <p>✅ Students must carry their college ID cards.</p>
+        <p>✅ Register before participating in an event.</p>
+        <p>✅ Participants must follow coordinator instructions.</p>
+        <p>✅ Maintain discipline and respect all participants.</p>
+        <p>✅ Submit projects within the announced time limit.</p>
+    </div>
+</section>
+
+<section class="section register-section" id="register">
+    <h2>Register for the Fest</h2>
+    <p class="subtitle">Fill in your details to join the celebration.</p>
+
+    <form id="registrationForm">
+        <label for="name">Student Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label for="roll">Roll Number</label>
+        <input type="text" id="roll" placeholder="Enter your roll number" required>
+
+        <label for="branch">Branch</label>
+        <select id="branch" required>
+            <option value="">Select your branch</option>
+            <option>CSM</option>
+            <option>CSE</option>
+            <option>AIML</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+        </select>
+
+        <label for="event">Choose Event</label>
+        <select id="event" required>
+            <option value="">Select an event</option>
+            <option>Code Challenge</option>
+            <option>AI Innovation</option>
+            <option>Dance Battle</option>
+            <option>Singing Stars</option>
+            <option>Web Development</option>
+            <option>AI Workshop</option>
+        </select>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <button type="submit" class="btn submit-btn">
+            Submit Registration
+        </button>
+    </form>
+
+    <p id="message" role="status"></p>
+</section>
+
+<footer>
+    <h3>🎉 Festiva 2026</h3>
+    <p>Celebrating creativity, technology and talent.</p>
+    <p>College Fest Management Website | Student Project</p>
+    <p>© 2026 Festiva. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
